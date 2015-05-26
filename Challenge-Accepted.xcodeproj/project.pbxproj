@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3299EE61B14D34A006EF0BB /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3299EE51B14D34A006EF0BB /* SearchVC.swift */; };
+		C3299EE81B14D8AC006EF0BB /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3299EE71B14D8AC006EF0BB /* Food.swift */; };
 		C3CB36EC1B14CF42007C3FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB36EB1B14CF42007C3FCE /* AppDelegate.swift */; };
 		C3CB36EE1B14CF42007C3FCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB36ED1B14CF42007C3FCE /* ViewController.swift */; };
 		C3CB36F11B14CF42007C3FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CB36EF1B14CF42007C3FCE /* Main.storyboard */; };
 		C3CB36F31B14CF42007C3FCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CB36F21B14CF42007C3FCE /* Images.xcassets */; };
 		C3CB36F61B14CF42007C3FCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3CB36F41B14CF42007C3FCE /* LaunchScreen.xib */; };
 		C3CB37021B14CF42007C3FCE /* Challenge_AcceptedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CB37011B14CF42007C3FCE /* Challenge_AcceptedTests.swift */; };
+		E5325A83D53A3D780F94A5A0 /* libPods-Challenge-Accepted.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E78BC760637881A11B86015 /* libPods-Challenge-Accepted.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E78BC760637881A11B86015 /* libPods-Challenge-Accepted.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Challenge-Accepted.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		509BAAB860C9F54766B9C2DA /* Pods-Challenge-Accepted.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-Accepted.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Challenge-Accepted/Pods-Challenge-Accepted.debug.xcconfig"; sourceTree = "<group>"; };
+		C3299EE51B14D34A006EF0BB /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		C3299EE71B14D8AC006EF0BB /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		C3299EE91B14DC58006EF0BB /* Challenge-Accepted-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Challenge-Accepted-Bridging-Header.h"; sourceTree = "<group>"; };
 		C3CB36E61B14CF42007C3FCE /* Challenge-Accepted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge-Accepted.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CB36EA1B14CF42007C3FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3CB36EB1B14CF42007C3FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,7 @@
 		C3CB36FB1B14CF42007C3FCE /* Challenge-AcceptedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Challenge-AcceptedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CB37001B14CF42007C3FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3CB37011B14CF42007C3FCE /* Challenge_AcceptedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge_AcceptedTests.swift; sourceTree = "<group>"; };
+		F18672A844EC67A10D0C8DFA /* Pods-Challenge-Accepted.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Challenge-Accepted.release.xcconfig"; path = "Pods/Target Support Files/Pods-Challenge-Accepted/Pods-Challenge-Accepted.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5325A83D53A3D780F94A5A0 /* libPods-Challenge-Accepted.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +66,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31053684CAF47784791897F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E78BC760637881A11B86015 /* libPods-Challenge-Accepted.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BA67DCB41B3556EFCF7C06F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				509BAAB860C9F54766B9C2DA /* Pods-Challenge-Accepted.debug.xcconfig */,
+				F18672A844EC67A10D0C8DFA /* Pods-Challenge-Accepted.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3299EE21B14D30D006EF0BB /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3299EE51B14D34A006EF0BB /* SearchVC.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		C3299EE31B14D318006EF0BB /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C3299EE71B14D8AC006EF0BB /* Food.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		C3CB36DD1B14CF42007C3FCE = {
 			isa = PBXGroup;
 			children = (
 				C3CB36E81B14CF42007C3FCE /* Challenge-Accepted */,
 				C3CB36FE1B14CF42007C3FCE /* Challenge-AcceptedTests */,
 				C3CB36E71B14CF42007C3FCE /* Products */,
+				8BA67DCB41B3556EFCF7C06F /* Pods */,
+				31053684CAF47784791897F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +122,15 @@
 		C3CB36E81B14CF42007C3FCE /* Challenge-Accepted */ = {
 			isa = PBXGroup;
 			children = (
+				C3299EE31B14D318006EF0BB /* models */,
+				C3299EE21B14D30D006EF0BB /* controllers */,
 				C3CB36EB1B14CF42007C3FCE /* AppDelegate.swift */,
 				C3CB36ED1B14CF42007C3FCE /* ViewController.swift */,
 				C3CB36EF1B14CF42007C3FCE /* Main.storyboard */,
 				C3CB36F21B14CF42007C3FCE /* Images.xcassets */,
 				C3CB36F41B14CF42007C3FCE /* LaunchScreen.xib */,
 				C3CB36E91B14CF42007C3FCE /* Supporting Files */,
+				C3299EE91B14DC58006EF0BB /* Challenge-Accepted-Bridging-Header.h */,
 			);
 			path = "Challenge-Accepted";
 			sourceTree = "<group>";
@@ -119,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3CB37051B14CF42007C3FCE /* Build configuration list for PBXNativeTarget "Challenge-Accepted" */;
 			buildPhases = (
+				CA1F8F8984CD835FAE826052 /* Check Pods Manifest.lock */,
 				C3CB36E21B14CF42007C3FCE /* Sources */,
 				C3CB36E31B14CF42007C3FCE /* Frameworks */,
 				C3CB36E41B14CF42007C3FCE /* Resources */,
+				9DC31A40E0F8E67A568F7F07 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,11 +257,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9DC31A40E0F8E67A568F7F07 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Challenge-Accepted/Pods-Challenge-Accepted-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA1F8F8984CD835FAE826052 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3CB36E21B14CF42007C3FCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3299EE61B14D34A006EF0BB /* SearchVC.swift in Sources */,
+				C3299EE81B14D8AC006EF0BB /* Food.swift in Sources */,
 				C3CB36EE1B14CF42007C3FCE /* ViewController.swift in Sources */,
 				C3CB36EC1B14CF42007C3FCE /* AppDelegate.swift in Sources */,
 			);
@@ -338,21 +423,28 @@
 		};
 		C3CB37061B14CF42007C3FCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509BAAB860C9F54766B9C2DA /* Pods-Challenge-Accepted.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Challenge-Accepted/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Challenge-Accepted/Challenge-Accepted-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C3CB37071B14CF42007C3FCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18672A844EC67A10D0C8DFA /* Pods-Challenge-Accepted.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Challenge-Accepted/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Challenge-Accepted/Challenge-Accepted-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +501,7 @@
 				C3CB37071B14CF42007C3FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3CB37081B14CF42007C3FCE /* Build configuration list for PBXNativeTarget "Challenge-AcceptedTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +510,7 @@
 				C3CB370A1B14CF42007C3FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
